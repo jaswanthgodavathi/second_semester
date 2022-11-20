@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL ROXX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "satya.jpeg" type = "image/jpeg">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>ROXX</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex" >
+                <h2>WELCOME TO PILGRIMAGE HOTEL</h2>
+                <p>Book the hotel rooms immediately.Get Comfortable and decent rooms at reasonable cost.</p> 
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">HOME</a></li>
+                <li><a href = "#services">SERVICES</a></li>
+                <li><a href = "#rooms">ROOMS</a></li>
+                <li><a href = "#customers">CUSTOMERS</a></li>
+            </ul>
+           
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>SERVICES</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service</h2>
+                        <p>Our Hotel takes care of hygiene and the food is made by deep precaution of safety of health.We use the following brands Nestle,Cadbury,Amul,Britannia,Haldirams and many trusted brands.Your Food is Our Responsibility</p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Our Hotel has luxurious,neat and clean swimming pools.There is special place alloted to sports like cricket and football.Our Indoor games spot will be fascinating and there is surity of 100 percent that one will enjoy.</p>
+                      
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>We have the best housekeeping staff,very cooperative and respects all the customers.They clean the compounds daily thrice and are available on call immediately at customer's service.We have a special massage and a specialised chiropractor room for our customers.You are all well set to enjoy the therapy.</p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p> Hotel guest room security may be enhanced by the use of security equipment such as hotel/motel function locks, safety chains, and similar devices.
+
+                            Secondary access limiting devices on sliding glass, balcony, and connecting room doors, access limiting devices for operational windows, a guest room telephone or another communication device available for use 24 hours a day, a peephole in or window next to the guest room door etc.!</p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+               
+                    <a href="bill.html">Book Now</a>
+                    
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "singleroom1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Single Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed: Queen size --- Occupancy:2
+                              
+                               
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Smart TV Access:No --- Free Wi-Fi:Yes
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Airport Pickup:No ---- Free Breakfast:Yes
+                            </li>
+                        </ul>
+                        <p>Luxury Single Room Suite has a comfortable queen size or twin bed, a sitting area, separate desk and bathroom with walk-in rain dance shower or a bath and shower and modern art and neutral colors.
+
+                        <p>The rooms come with full amenities; Flat Screen TV, Wi-Fi, THE SPA COLLECTION amenities, air-conditioning, hairdryer, safe, minibar and complimentary coffee & tea facilities.</p>
+                        
+                        <p class = "rate">
+                            <span>2500Rs /</span> Per Night
+                        </p>
+                        
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "doubleroom.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Double Room</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed: King size --- Occupancy:2 Persons
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Smart TV Access: Yes --- Free Wi-Fi:Yes
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Airport Pickup:Yes ---- Free Breakfast:Yes
+                            </li>
+                        </ul>
+                        <p>Our Luxury Double Rooms are individually decorated in shades of aqua to reflect the marine environment surrounding the hotel. Each features its own sitting area and bedroom with en-suite bathroom and air-conditioning throughout to ensure the most comfortable stay. Views vary, depending on the location of each room.</p>
+                        
+                        <p class = "rate">
+                            <span>4500 Rs /</span> Per Night
+                        </p>
+                     
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "deluxeroom.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Deluxe Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed: King size --- Occupancy:2 to 4 Persons
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Smart TV Access: Yes --- Free Wi-Fi:Yes
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Airport Pickup:Yes ---- Free Breakfast:Yes
+                            </li>
+                        </ul>
+                        <p></p>Deluxe family rooms with sofa bed, are modern decorated and offering comfortable hospitality to a family with 2 children, or a company of 4 adults. They are totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system.
+                       
+                        <p class = "rate">
+                            <span>6000 Rs/</span> Per Night
+                        </p>
+                        
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>The best hotel I've ever been privileged enough to stay at. Gorgeous building, and it only gets more breathtaking when you walk in. High quality rooms (there was even a tv by the shower), and high quality service. Also, they are one of few hotels that allow people under 21 to book a reservation.</p>
+                        <img src = "mb.jpg" alt = "customer image">
+                        <span>Mahesh,India</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>The rooms were clean, very comfortable, and the staff was amazing. They went over and beyond to help make our stay enjoyable. I highly recommend this hotel for anyone visiting downtown location</p>
+                        <img src = "vijay1.jpg" alt = "customer image">
+                        <span>Vijay,India</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer"> 
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p> Beautiful downtown hotel with nice roof top bar. Rooms have historic feel with old hard wood floors, yet modern as bathrooms have white subway tiles with TVs in each bathroom. Staff is wonderful and accommodating providing upgrades when available.</p>
+                        <img src = "prabhas.jpg" alt = "customer image">
+                        <span>Prabhas,Italy</span> 
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>We are one of the best hotels in the world we are famous for our food and style of welcoming guests</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                            <button onclick="myFunction()">Twitter</button>
+
+<script>
+function myFunction() {
+  location.replace("https://twitter.com/explore")
+}
+</script>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                            <button onclick="myFb()">Facebook</button>
+
+<script>
+function myFb() {
+  location.replace("https://www.facebook.com/")
+}
+</script>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                            <button onclick="myInst()">Instagram</button>
+
+<script>
+function myInst() {
+  location.replace("https://www.instagram.com/accounts/login//")
+}
+</script>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>   
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                    Amrita Coimbatore Ettimadai 
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +84545 37534 48
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            info@request.com
+                        </span>
+                    </div>
+                </div>  
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="hotels1.js"></script>
+    </body>
+</html>

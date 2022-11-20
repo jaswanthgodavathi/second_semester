@@ -1,0 +1,121 @@
+<!----------------<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var f[10]={12,345,4,546,122,84,98,64,9,1,3223,455,23,234,213};
+        var temp;
+        for(i=0;i<10;i++)
+        {
+            if(f[i]<f[i+1])
+            {
+                temp = f[i];
+                f[i+1]=f[i];
+                f[i+1]=temp;
+            }
+        }
+        var a = 10;
+            var b = 2;
+            var c = "Test";
+            var linebreak="<br/>";
+            document.write("a+b=");
+            result = a+b;
+            document.write(result);
+            document.write(linebreak);
+            result = a/b;
+            document.write("a/b=");
+            document.write(result);
+            document.write(linebreak);
+            result = a+b+c;
+            document.write("a + b + c=");
+            document.write(result);
+            document.write(linebreak);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            var a = 10;
+            var b = 2;
+            var c = "Test";
+            var linebreak="<br/>";
+            document.write("a+b=");
+            result = a+b;
+            document.write(result);
+            document.write(linebreak);
+            result = a/b;
+            document.write("a/b=");
+            document.write(result);
+            document.write(linebreak);
+            result = a+b+c;
+            document.write("a + b + c=");
+            document.write(result);
+            document.write(linebreak);
+            document.write("Hi");
+            var f[5];
+        </script>
+    </body>
+</html>--------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script  type = "text/javascript">
+        
+        function bubbleSort(A)
+        {
+            var temp,j,i;
+            for (i = 0; i < A.length; i++) 
+            {
+                for (j = 0; j < A.length- 1 - i; j++) 
+                {
+                    if (A[j] < A[j + 1]) 
+                    {
+                        temp = A[j];
+                        A[j] = A[j + 1];
+                        A[j + 1] = temp;
+                    }
+                }
+            }
+            document.write("The sorted array is: ")
+            for (i = 0; i < A.length; i++) 
+            {
+                document.write(A[i]);
+                document.write("\t");
+            }
+            console.log(A);
+        }
+        
+        var  A = [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213];
+        document.write("The given array is:     ")
+        for (i = 0; i < A.length; i++) 
+        {
+            document.write(A[i]);
+            document.write("\t");
+        }
+        document.write("<br>");
+        document.write("<br>");
+        bubbleSort(A);
+        document.write("<br>");
+        document.write("<br>");
+        document.write("The sorting has been completed.");
+    </script>
+</body>
+</html>
+
+
+
+

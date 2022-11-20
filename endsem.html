@@ -1,0 +1,625 @@
+<!------<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("Hello world");
+        </script>
+        <p>This is the web page body </p>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>My first web page </h1>
+        <p>
+            mY first paragraph.
+        </p>
+        <button type="button" onclick="document.write(5+6)">Try it </button>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>My first web page </h1>
+        <p>my first paragraph</p>
+        <script type="text/javascript">
+            window.alert("This is an elert ")
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<hmtl>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var a = 10;
+            var b = 2;
+            var c = "Test";
+            var linebreak = "<br/>";
+            document.write("a + b = ");
+            result = a+b;
+            document.write(result);
+            document.write(linebreak);
+            result = a - b;
+            document.write("a - b = ");
+            document.write(result);
+            document.write(linebreak);
+            result = a/b;
+            document.write("a / b = ");
+            document.write(result);
+            document.write(linebreak);
+            result = a + b + c;
+            document.write("a + b + c = ");
+            document.write(result);
+            document.write(linebreak);
+        </script>
+    </body>
+</hmtl>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var a;
+            a = window.prompt("Please enter the value of a ",0);
+            var b;
+            b = window.prompt("Please enter the value of b ",0);
+            var linebreak = "<br/>";
+            document.write("(a==b)=> ");
+            result = (a==b);
+            document.write(result);
+            document.write(linebreak);
+            document.write("(a>b)=>");
+            result = (a>b);
+            document.write(result);
+            document.write(linebreak);
+            document.write("(a < b ) =>  ");
+            result = (a<b);
+            document.write(result);
+            document.write(linebreak);
+            
+        </script>
+    </body>
+</html>-b
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            var a = true;
+            var b = false;
+            var linebreak = "<br/>";
+            document.write("(a&&b)=>");
+            result = a && b;
+            document.write(result);
+            document.write(linebreak);
+            document.write("(a||b)=>");
+            result = a||b;
+            document.write(result);
+            document.write(linebreak);
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<hmtl>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var age;
+            age = window.prompt('Please Enter the value of age',0);
+            if(age > 18)
+            {
+                document.write("<b>Qualifies for driving</b>");
+            }
+            else
+            {
+                document.write("<b>Does not qualify for driving<b/>");
+            }
+        </script>
+    </body>
+</hmtl>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var age;
+            age = window.prompt("Enter your age ",0);
+            if(age>18)
+            {
+                document.write("You are eligible to vote ");
+            }
+            else{
+                document.write("You are not eligible to vote ");
+            }
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            var book;
+            book = window.prompt("Enter the name of the book ","NULL");
+            if(book=="history" || book =="History")
+            {
+                document.write("<b>History book <b/>");
+            }
+            else if(book == "maths" || book == "Maths ")
+            {
+                document.write("<b>Maths book<b/>");
+            }
+            else if(book =="cse" || book == "CSE")
+            {
+                document.write("<b> CSE book <b/>");
+            }
+            else{
+                document.write("<b>None of the books <b/> ");
+            }
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var grade;
+            grade = window.prompt("Enter your grade ",0);
+            switch(grade){
+                case 'A':document.write("<b>Excellent");
+                    break;
+                case 'B':document.write("<b>Good<b/>");    
+            }
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<head></head>
+<body>
+    <script type="text/javascript">
+        var count = 0;
+        document.write("Starting loop "+"<br/>");
+        do{
+            document.write("Current count: "+ count +"<br/>");
+            count++;
+        }
+        while(count<5);
+        document.write("Loop stopped");
+    </script>
+</body>
+
+<!DOCTYPE html>
+<head></head>
+<body>
+    <script type="text/javascript">
+        var count = 0;
+        document.write("Starting loop "+"<br/>");
+        for(count = 0;count<10;count++)
+        {
+            document.write("Curren count:"+ count +"<br/>");
+        }
+        document.write("Loop stopped");
+    </script>
+</body>
+<!DOCTYPE html>
+<frameset cols="33%,33%,*">
+    <frame src="midtermframes1.html" name="title"></frame>
+    <frameset rows="50%,*">
+        <frame src="midtermframes2.html" name="others"></frame>
+        <frame src="midtermframes3.html" name="conclusion"></frame>
+    </frameset>
+    <frame src="Mid term question papers/midtermframes7.html" name="conclusion2"></frame>
+</frameset>-
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Links</h1>
+        <ul>
+            <li><a href="google.com">Google</a><br>
+            <li><a href="midterm.html">midterm</a></li></li>
+        </ul>
+        
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form validation </title>
+        <script type="text/javascript">
+            function validate(){
+                if(document.myform.name.value==""){
+                    alert("Please Provide a name ");
+                    document.myform.name.focus();
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" onsubmit = "return(validate());>
+            <table border="1">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Zip code</td>
+                    <td><input type="text" name="zip"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="Country">
+                            <option value="-1" selected>[choose yours]</option>
+                            <option value="1">USA</option>
+                            <option value="2">INdia</option>
+                            <option value="3">Srilanka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function validateform(){
+                var name = document.myform.name.value;
+                var password = document.myform.password.value;
+                if(name==null||name==""){
+                    alert("Name can't be blank");
+                    return false;
+                }
+                else if(password.length<6){
+                    alert("Password must be at least 6 characters long ");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" method="post" onsubmit="return validateform()">
+            Name:<input type="text" name="name"><br/>
+            Password:<input type="password" name="password"><br/>
+            <input type="submit" value="register">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>-
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+            var a;
+            a = window.prompt("Please enter the value of a ",0);
+            var b;
+            b = window.prompt("Please enter the value of b ",0);
+            var linebreak = "<br/>";
+            document.write("(a==b)=> ");
+            result = (a==b);
+            document.write(result);
+            document.write(linebreak);
+            document.write("(a>b)=>");
+            result = (a>b);
+            document.write(result);
+            document.write(linebreak);
+            document.write("(a < b ) =>  ");
+            result = (a<b);
+            document.write(result);
+            document.write(linebreak);
+            
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function validateform(){
+            var name = document.myform.name.value;
+            var password = document.myform.password.value;
+            if(name == null || name=="")
+            {
+                alert("Name can't be empty ");
+                return false;
+            }
+            else if(password.length<6 || password.length>8)
+            {
+                alert("Password length should be greater than 6 ");
+                return false;
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" onsubmit="return validateform()">
+        Name:<input type="text" name="name"><br/>
+        Password:<input type="password" name="password"><br/>
+        <input type="submit" name="register">
+        <input type="reset" name="cancel">
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function matchpass(){
+                var pass1 = document.f1.password.value;
+                var pass2 = document.f1.password2.value;
+                if(pass1=="")
+                {
+                    alert("Password 1 is empty ");
+                    return false;
+                }
+                else if(pass2=="")
+                {
+                    alert("Password 2 is empty ");
+                    return false;
+                }
+                else if(pass1==pass2)
+                {
+                    return true;
+                }
+                else{
+                    alert("password must be same ");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="f1" onsubmit="return matchpass()">
+        Password:<input type="password" name="password"><br/>
+        Re-Enter Password:<input type="password" name="password2"><br/>
+        <input type="submit" value="sub">
+        <input type="reset" value="res">
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            var x = document.f2.email.value;
+            var atposition = x.indexOf("@");
+            var dotposition = x.lastIndexOf(".");
+            if(atposition<1 || dotposition<atposition+2 || dotposition+2 >= x.length)
+                {
+                    alert("Please enter a valid email address \n atposition:"+atposition+"\ndotposition"+dotposition);
+                    return false;
+                }
+        </script>
+    </head>
+    <body>
+        <form name="f2" onsubmit="return validateemail()">
+        Email: <input type="text" name="email"><br/>
+        <input type="submit" name="sub">
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<frameset rows="33%,33%,*">
+    <frame src="midtermframes1.html" name="title"></frame>
+    <frameset cols="50%,*">
+        <frame src="midtermframes2.html" name="others"></frame>
+        <frame src="midtermframes3.html" name="conclusion"></frame>
+    </frameset>
+    <frame src="Mid term question papers/midtermframes7.html" name="conclusion2"></frame>
+</frameset>
+
+<!DOCTYPE hmtl>
+<frameset rows="33%,33%,*">
+    <frame src="midtermframes1.html" name="title"></frame>
+    <frameset cols="33%,33%,*">
+        <frame src="midtermframes2.html" name="dash1"></frame>
+        <frame src="midtermframes3.html" name="dash2"></frame>
+        <frame src="midtermframes2.html" name="dash3"></frame>
+    </frameset>
+    <frame src="Mid term question papers/midtermframes7.html" name="conclusion"></frame>
+</frameset>
+<!DOCTYPE html>
+<frameset rows="20%,60%,*">
+    <frame src="midtermframes1.html" name="title"></frame>
+    <frame src="midtermframes2.html" name="title2"></frame>
+    <frame src="midtermframes3.html" name="dash"></frame>
+</frameset>
+<!DOCTYPE html>
+<div>
+    <h1>A basic table </h1>
+    <h2>HTML super heroes </h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll number</th>
+        </tr>
+        <tr>
+            <td>Satiya</td>
+            <td>CSE-D</td>
+            <td>21322</td>
+    </tr>
+    <tr>
+        <td>Jaswanth</td>
+        <td>CSE-D</td>
+        <td>21322</td>
+    </tr>
+    <tr>
+        <td>Satya</td>
+        <td>CSE-D</td>
+        <td>21322</td>
+    </tr>
+    <tr>
+        <td>Hiteesh</td>
+        <td>CSE-D</td>
+        <td>21322</td>
+    </tr>
+</table>
+</div>
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <table border="1" style="height: 500px; width: 500px; text-align: center;">
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td rowspan="2">5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                
+                <td>9</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <table border="1" style="height: 500px; width:500px">
+            <tr>
+                <td colspan="3">Invoice#123456789</td>
+                <td>14 January 2025</td>
+            </tr>
+            <tr>
+                <td colspan="2">Pay to :<br/>Acme billing co<br/>123 Main street<br/>Cityville</td>
+                <td colspan="2">Customer: <br/>John Smith <br/> 321 Willow way <br/>Southeast</td>
+            </tr>
+            <tr>
+                <td>Name/Descrription</td>
+                <td>Qty</td>
+                <td>@</td>
+                <td>Cost</td>
+            </tr>
+            <tr>
+                <td>Paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>Staples(box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td colspan="3">Subtotal</td>
+                <td>110.00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>8%</td>
+                <td>8.80</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form>
+            A text field<input type="text" value="with an initial value"><br/>
+            A multi line text<textarea>Hello</textarea><br/>
+            A password field<input type="password" value="secret"><br/>
+
+
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function validate(){
+                var a = document.myform.name.value;
+                var b = document.myform.email.value;
+                var c = document.myform.password.value;
+                if(a==null || a=="")
+                {
+                    alert("Name can't be empty ");
+                    return false;
+                }
+                if(c.length < 6)
+                {
+                    alert("Password should atleast have 8 characters ");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" onsubmit=" return validate()">
+        Enter your name:<input type="text" name="name"><br/>
+        Enter your mail id:<input type="email" name="email"><br/>
+        Enter your password:<input type="password" name="password"><br/>
+        <input type="submit" value="sub">
+        <input type="reset" value="res">
+        </form>
+    </body>
+</html>-->
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <script type="text/javascript">
+            var c;
+            c = document.getElementById("name");
+            var ctx= c.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+            ctx.stroke();
+        </script>
+    </head>
+    <body>
+       <canvas id="name" height="100" width="100" style="border: 1px solid black;"></canvas>
+        
+    </body>
+</html>
