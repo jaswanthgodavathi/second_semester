@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta Charset="UTF-8">
+        <title>Contact us</title>
+        <link rel="stylesheet" href="conactusstyle (3).css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Connect With Us</h1>
+            <p>We would be pleased to help you with your queries and help solve your problems.<br>
+            Feel free to get in touch with us </p>
+           <div class="contact-box">
+               <div class="contact-left">
+                <h3>Send your request</h3>
+                <form name="myform" onsubmit="validate();">
+
+                      <div class="input-row">
+                          <div class="input-group">
+                              <lable>Name: </lable>
+                              <input type="text" placeholder="sidharth parmi" required>
+                              <small class="error"></small>
+                          </div>
+                          <div class="input-group">
+                            <lable for="Phone">Phone: </lable>
+                            <input type="tel" name="Phone" id="Phone" placeholder="994628180" required>
+                            <small class="error"></small>
+                        </div>
+                      </div>
+
+                      <div class="input-row">
+                        <div class="input-group">
+                            <lable for ="email">Email:</lable>
+                            <input type="text"  name="email" id="email" placeholder="sidharth123@gmail.com" required>
+                        </div>
+                        <div class="input-group">
+                          <lable>Subject: </lable>
+                          <input type="text" placeholder="Product name" required>
+                      </div>
+                    </div>
+                    <label>Message: </label>
+                    <textarea rows="5" placeholder="Your message" required></textarea>
+
+                    <button type="submit"  onclick="myFunction()" class="btn" value="btn"> SUBMIT </button>
+
+                </form>
+
+               </div>
+               <div class="contact-right">
+                <h3>Reach Us</h3>
+
+                <table>
+
+                      <tr>
+                          <td>Email</td>
+                          <td>PilgrimagesBookings@gmail.com</td>
+                      </tr>
+
+                      <tr>
+                        <td>Phone</td>
+                        <td>+040 8276 2409</td>
+                    </tr>
+
+                    <tr>
+                        <td>Address</td>
+                        <td> #375 , ground floor, 7th phase <br>
+                            main office, road no 12, street 9<br>
+                            banjara hills, Hyderabad-500034.
+                         </td>
+                    </tr>
+
+                </table>
+
+
+
+               </div>
+           </div>
+        </div>
+
+        <script type="text/javascript">
+            function validate()
+            {
+                var emailID=document.myform.email.value;
+                atpos=emailID.indexOf("@");
+                dotcompos=emailID.indexOf(".com");
+                if(atpos<1||((dotcompos-atpos)<2))
+                {
+                    alert("Please enter correct Email ID. Email should contain \"@\" and \".com\" ");
+                    return false;
+                }
+                var phno = document.getElementById("Phone")
+                var phoneno = /^\d{10}$/;
+                if(!((phno.value.match(phoneno))&&((phno.value<=9999999999)&&(phno.value>=1000000000))))
+                {
+                    alert("Enter proper phone number: 10 digits and should start with a number from 1 to 9.");
+                    return false;
+                }
+
+                
+                window.open("gif.html");
+            }
+            function myFunction() {
+            location.replace("gif.html")
+            };
+        </script>
+
+
+
+
+    </body>
+    </html>

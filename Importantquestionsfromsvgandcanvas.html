@@ -1,0 +1,68 @@
+<!--------<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>canvas and svg</title>
+    </head>
+    <body>
+        <h2 align="center">
+            SVG Circle(Geeks For Geeks)
+        </h2>
+      
+        <svg align="center" id="svgelem" height="200">
+            <circle id="greencircle" cx="180"
+                cy="180" r="100" fill="green";" />
+        </svg>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>HTML5 Canvas Tag</title>
+</head>
+  
+<body>
+    <h2>Canvas Square(Geeks For Geeks)</h2>
+  
+    <canvas id="newCanvas" width="500" height="500"
+        style="border:1px solid #000000;">
+    </canvas>
+      
+    <script>
+        var c = document.getElementById('newCanvas');
+        var ctx = c.getContext('2d');
+        ctx.fillStyle = '#7cce2b';
+        ctx.fillRect(0, 0, 500, 500);
+    </script>
+</body>
+  
+</html>-------->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Svg and canvas</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+          </svg>
+    </body>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+      </svg>
+      <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>  
+      <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> 
+</html>
+    
